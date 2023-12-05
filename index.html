@@ -1,0 +1,1564 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paytm  Website Clone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        #header {
+    background-color: #ffffff;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add box shadow here */
+}
+         /* Header */
+         #header1{
+            height: 65px;
+            width: 5%;
+            background-color: #ffffff;
+            float: left;
+        }
+        #header2{
+            height: 65px;
+            width: 17%;
+            background-color: #ffffff;
+            float: left;
+          
+        }
+        
+        #header3{
+            height: 65px;
+            width: 15%;
+            background-color:rgb(255, 255, 255);
+            float: left;
+        }
+        #header3 p{
+            font-size: 18px;
+            font-family: 'Noto Sans JP', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+color: black;
+        }
+        #header3 p:hover{
+            color:#797270;
+    transition: all 0.5s ease 0s;
+        }
+        
+        #header4{
+            height: 65px;
+            width: 13%;
+            background-color: rgb(255, 255, 255);
+            float: left;
+        }
+        #header4 p{
+            font-size: 18px;
+            font-family: 'Noto Sans JP', sans-serif;
+            font-family: 'Poppins', sans-serif;
+            font-family: 'Roboto', sans-serif;
+            color: black;
+        }
+        #header4 p:hover{
+            color:#797270;
+    transition: all 0.5s ease 0s;
+        }
+        #header5{
+            height: 65px;
+            width: 13%;
+            background-color: rgb(255, 255, 255);
+            float: left;
+        }
+       #header5 p{
+        font-size: 18px;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        color: black;
+       }
+       #header5 p:hover{
+            color:#797270;
+    transition: all 0.5s ease 0s;
+        }
+        #header6{
+            height: 65px;
+            width: 7%;
+            background-color: rgb(255, 255, 255);
+            float: left;
+        }
+        
+        #header6 p{
+            font-size: 18px;
+            font-family: 'Noto Sans JP', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+color: black;
+        }
+        #header6 p:hover{
+            color:#797270;
+    transition: all 0.5s ease 0s;
+        }
+        #header7{
+            height: 65px;
+            width: 6%;
+            background-color: rgb(255, 255, 255);
+            float: left;
+        }
+        #header7 p{
+            color: black;
+            font-size: 18px;
+            font-family: 'Noto Sans JP', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+        }
+        #header7 p:hover{
+            color:#797270;
+    transition: all 0.5s ease 0s;
+        }
+        #header8{
+            height: 70px;
+            width: 15%;
+            background-color: rgb(255, 255, 255);
+            float: left;
+        }
+        .login-container {
+    text-align: center;
+}
+
+.paytm-signin-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #3498db;
+    color: #fff;
+    transition: background-color 0.3s ease;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 13px;
+}
+
+.paytm-signin-button:hover {
+    background-color: rgb(9, 9, 66);
+}
+#head-1{
+    background-color: #79727044;
+    margin-bottom: 45px;
+    padding-top: 1%;
+    height: 15%;
+}
+#head-1 p{
+    font-size: 13px;
+    font-family: 'Lato', sans-serif;
+font-family: 'Noto Sans JP', sans-serif;
+font-family: 'Noto Sans Tangsa', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+color: rgba(0, 0, 0, 0.918);
+align-items: center;
+margin-left: 32%;
+padding-bottom: 1.5%;
+}
+#content-box{
+    width: 100%;
+    height: 550px;
+    background-color: rgb(255, 255, 255);
+}
+
+#box-1{
+    height: 550px;
+    width: 5%;
+    background-color: rgb(255, 255, 255);
+    float: left;
+}
+#box-2{
+    height: 550px;
+    width: 45%;
+    background-color: rgb(255, 255, 255);
+    float: left;
+}
+#box-2 img{
+    margin-top: 6%;
+    margin-left: 3%;
+}
+#box-2 h1{
+    font-size: 45px;
+    margin-left: 3%;
+    font-family: 'Lato', sans-serif;
+font-family: 'Noto Sans JP', sans-serif;
+font-family: 'Noto Sans Tangsa', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+#box-2 p{
+    font-size: 21px;
+    font-family: 'Lato', sans-serif;
+font-family: 'Noto Sans JP', sans-serif;
+font-family: 'Noto Sans Tangsa', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+margin-left: 3%;
+}
+#box-3{
+    height: 550px;
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+    float: left;
+}
+#box-3 img{
+    margin-left: 29%;
+    margin-top: 5%;
+}
+.download-button{
+    width: 220px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    border-radius: 55px;
+    margin-left: 2%;
+}
+.download-button:hover{
+    background-color: #ffffff67;
+}
+ #content-2{
+    background-color: #57bcff;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+ } 
+ #content-2-item{
+display: flex;
+flex-direction: row;
+align-items: center;
+width: 100%;
+justify-content: space-evenly;
+ }
+ #item-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    height: 200px;
+    justify-content: space-evenly;
+    text-align: center;
+ }
+ #item-1:hover{
+    cursor: pointer;
+    border-radius: 35px;
+    background-color: #7972704b;
+ }
+ #item-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    height: 200px;
+    justify-content: space-evenly;
+    text-align: center;
+ }
+ #item-2:hover{
+    cursor: pointer;
+    border-radius: 35px;
+    background-color: #7972704b;
+ }
+ #item-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    height: 200px;
+    justify-content: space-evenly;
+    text-align: center;
+ }
+ #item-3:hover{
+    cursor: pointer;
+    border-radius: 35px;
+    background-color: #7972704b;
+ }
+ #item-4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    height: 200px;
+    justify-content: space-evenly;
+    text-align: center;
+ }
+ #item-4:hover{
+    cursor: pointer;
+    border-radius: 35px;
+    background-color: #7972704b;
+ }
+ #item-5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    height: 200px;
+    justify-content: space-evenly;
+    text-align: center;
+ }
+ #item-5:hover{
+    cursor: pointer;
+    border-radius: 35px;
+    background-color: #7972704b;
+ }
+ #item-6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    height: 200px;
+    justify-content: space-evenly;
+    text-align: center;
+ }
+ #item-6:hover{
+    cursor: pointer;
+    border-radius: 35px;
+    background-color: #7972704b;
+ }
+ #item-7{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    height: 200px;
+    justify-content: space-evenly;
+    text-align: center;
+ }
+ #item-7:hover{
+    cursor: pointer;
+    border-radius: 35px;
+    background-color: #7972704b;
+ }
+ #content-3{
+    background-color: rgb(44, 44, 180);
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+ } 
+ #content-3-box{
+display: flex;
+flex-direction: row;
+align-items: center;
+width: 100%;
+justify-content: space-evenly;
+ }
+ #book-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    height: 200px;
+    justify-content: space-evenly;
+    text-align: center;
+ }
+ #book-1:hover{
+    cursor: pointer;
+    border-radius: 35px;
+    background-color: rgba(30, 30, 95, 0.466);
+ }
+ #book-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    height: 200px;
+    justify-content: space-evenly;
+    text-align: center;
+ }
+ #book-2:hover{
+    cursor: pointer;
+    border-radius: 35px;
+    background-color: rgba(30, 30, 95, 0.466);
+ }
+ #book-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    height: 200px;
+    justify-content: space-evenly;
+    text-align: center;
+ }
+ #book-3:hover{
+    cursor: pointer;
+    border-radius: 35px;
+    background-color: rgba(30, 30, 95, 0.466);
+ }
+ #book-4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    height: 200px;
+    justify-content: space-evenly;
+    text-align: center;
+ }
+ #book-4:hover{
+    cursor: pointer;
+    border-radius: 35px;
+    background-color: rgba(30, 30, 95, 0.466);
+ }
+ #book-5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    height: 200px;
+    justify-content: space-evenly;
+    text-align: center;
+ }
+ #book-5:hover{
+    cursor: pointer;
+    border-radius: 35px;
+    background-color: rgba(30, 30, 95, 0.466);
+ }
+ #book-6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    height: 200px;
+    justify-content: space-evenly;
+    text-align: center;
+ }
+ #book-6:hover{
+    cursor: pointer;
+    border-radius: 35px;
+    background-color: rgba(30, 30, 95, 0.466);
+ }
+ #book-7{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    height: 200px;
+    justify-content: space-evenly;
+    text-align: center;
+ }
+ #book-7:hover{
+    cursor: pointer;
+    border-radius: 35px;
+    background-color: rgba(30, 30, 95, 0.466);
+ }
+ #big-container{
+    display: flex;
+    flex-direction: column;
+    height: 230px;
+    background: rgb(255, 255, 255);
+    justify-content: space-evenly;
+    margin-left: 9%;
+ }
+ #container-4{
+    display: flex;
+    height: 500px;
+    width: 92%;
+    padding: 50px;
+    background: rgb(255, 255, 255);
+    flex-direction: row;
+    align-items: center;
+   
+ }
+ #container-4-left{
+    width: 50%;
+   padding: 60px 50px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+ }
+ #container-4-left-1{
+    display: flex;
+    align-items: center;
+ }
+ #box-12{
+height: 45px;
+width: 252px;
+background: black;
+border-radius: 25px;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+ }
+#box-12:hover{
+    background-color: #ffffffa9;
+    cursor: pointer;
+} 
+#container-4-right{
+    width: 50%;
+    height: 100%;
+}
+#container-5{
+    display: flex;
+    height: 500px;
+    width: 92%;
+    padding: 50px;
+    background: rgb(255, 255, 255);
+    flex-direction: row;
+    align-items: center;
+   
+ }
+ #container-5-left{
+    width: 50%;
+   padding: 60px 50px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+ }
+ #container-5-left-1{
+    display: flex;
+    align-items: center;
+ }
+ #box-13{
+height: 45px;
+width: 252px;
+background: black;
+border-radius: 25px;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+ }
+#box-13:hover{
+    background-color: #ffffffa9;
+    cursor: pointer;
+} 
+#container-5-right{
+    width: 50%;
+    height: 100%;
+}
+#container-6{
+    display: flex;
+    height: 500px;
+    width: 92%;
+    padding: 50px;
+    background: rgb(255, 255, 255);
+    flex-direction: row;
+    align-items: center;
+   
+ }
+ #container-6-left{
+    width: 50%;
+   padding: 60px 50px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+ }
+ #container-6-left-1{
+    display: flex;
+    align-items: center;
+ }
+#box-15{
+    height: 45px;
+    width: 170px;
+    background: #2e2287;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+#loan-box{
+    height: 550px;
+    background-color: #b9bcbe31;
+}
+#loan-box-1{
+    height: 550px;
+    background-color: rgba(255, 255, 255, 0.336);
+    width: 5%;
+    float: left;
+}
+#loan-box-2{
+    height: 550px;
+    background-color: rgba(255, 255, 255, 0.322);
+    width: 45%;
+    float: left;
+    border-right:none ;
+}
+#loan-box-2 img{
+    margin-top: 4rem;
+}
+#loan-box-3{
+    height: 550px;
+    background-color: rgba(255, 255,255,0.322);
+    width: 45%;
+    float: left;
+    border-left: none;
+}
+#loan-box-4{
+    height: 550px;
+    background-color: rgb(255, 255,255.0.322);
+    width: 5%;
+    float: left;
+}
+#container-8{
+    margin-left: 4%;
+    margin-top: 2rem;
+   
+}
+
+
+.container-box {
+  max-width: 1200px;
+  margin: 50px auto;
+  display: flex;
+}
+
+.left-side {
+  flex: 1;
+}
+
+.left-side img {
+  max-width: 100%;
+  height: auto;
+}
+
+.right-side {
+  flex: 1;
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+.right-side h2 {
+  color: #ffffff;
+}
+
+.right-side p {
+  color: #ffffff;
+  line-height: 1.6;
+}
+#insurance-container{
+    background-color: rgb(255, 255, 255);
+    height: 500px;
+}
+#insurance-box-1{
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    width: 5%;
+    float: left;
+}
+#insurance-box-2{
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    width: 60%;
+    float: left;
+}
+#insurance-box-3{
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    width: 35%;
+    float: left;
+}
+#container-7{
+    margin-left: 4%;
+}
+.box-service{
+    height: 500px;
+    background-color: rgba(153, 153, 153, 0);
+}
+#service-box-1{
+    height: 500px;
+    background-color: rgb(255,255,255,0322);
+    width: 10%;
+    float: left;
+}
+#service-box-2{
+    height: 500px;
+    background-color: whitesmoke;
+    width: 45%;
+    float: left;
+   
+    border-radius:20px ;
+    border-right: none;
+}
+#service-box-3{
+    height: 500px;
+    background-color: whitesmoke;
+    width: 35%;
+    float: left;
+    border-radius:20px ;
+    border-left: none;
+}
+#service-box-3 img{
+    margin-left: 10%;
+}
+#service-box-4{
+    height: 500px;
+    background-color: rgba(255, 255, 255, 0.103);
+    width: 10%;
+    float: left;
+}
+#container-9{
+    margin-left: 9%;
+}
+#box-payment{
+    height: 500px;
+    background-color: #ffffff;
+}
+#payment-tools-1{
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    width: 10%;
+    float: left;
+}
+#payment-tools-2{
+    height: 500px;
+    background-color: whitesmoke;
+    width: 45%;
+    float: left;
+    border-radius:20px ;
+    border-right: none;
+}
+#payment-tools-3{
+    height: 500px;
+    background-color: whitesmoke;
+    width: 35%;
+    float: left;
+    border-radius:20px ;
+    border-left: none;
+}
+#payment-tools-3 img{
+    margin-top: 4rem;
+    margin-left: 5%;
+}
+#payment-tools-4{
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    width: 10%;
+    float: left;
+}
+#tool-box{
+    height: 530px;
+    background-color: rgb(255, 255, 255);
+}
+#tool-box-1{
+    height: 530px;
+    background-color: #ffffff;
+    width: 10%;
+    float: left;
+}
+#tool-box- img{
+    margin-top: 5rem;
+
+}
+#tool-box-2{
+    height: 530px;
+    background-color: #ffffff;
+    width: 18%;
+    float: left;
+}
+#tool-box-2 img{
+    margin-top: 5rem;
+
+}
+#tool-box-3{
+    height: 530px;
+    background-color: rgb(255, 255, 255);
+    width: 25%;
+    float: left;
+}
+#tool-box-3 img{
+    margin-top: 5rem;
+
+}
+#tool-box-4{
+    height: 530px;
+    background-color: #ffffff;
+    width: 18%;
+    float: left;
+}
+#tool-box-4 img{
+    margin-top: 5rem;
+
+}
+#tool-box-5{
+    height: 530px;
+    background-color: #ffffff;
+    width: 18%;
+    float: left;
+}
+#tool-box-5 img{
+    margin-top: 5rem;
+
+}
+#tool-box-6{
+    height: 530px;
+    background-color: rgb(255, 255, 255);
+    width: 11%;
+    float: left;
+}
+.footer {
+      background-color: #f5f5f5;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .footer a {
+      color: #007bff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-family: 'Lato', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Noto Sans Tangsa', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    }
+
+    .footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head> 
+<body>
+    <!--Navbar Starts Here-->
+    <div id="header">
+        <div id="header1"></div>
+        <div id="header2">
+           <img src="paytm_logo-1.png" alt="" height="60px" width="160px">
+        </div>
+        <div id="header3">
+            <p>Paytm for Consumer</p>
+        </div>
+        <div id="header4">
+            <p>Paytm for Business</p>
+        </div>
+        <div id="header5">
+            <p>
+                Investor Relations
+                </p>
+        </div>
+        <div id="header6">
+            <p>
+                Company
+            </p>
+        </div>
+        <div id="header7">
+            <p>
+                Career
+            </p>
+        </div>
+        <div id="header8">
+            <div class="login-container">
+                <button class="paytm-signin-button">Sign In
+                    <img src="circle-user-1.png" alt="" height="17px" width="27px">
+                </button>
+            </div>
+        </div>
+    </div>
+    <!--Head-2 Starts Here-->
+    <div id="head-1">
+        <p><b>No Wallet KYC Required
+            😊
+            to pay using UPI on Paytm.
+            Learn more.</b></p>
+    </div>
+    <!--Content-box Starts Here-->
+    <div id="content-box">
+        <div id="box-1"></div>
+        <div id="box-2">
+            <img src="paytm.upi.png">
+            <h1><B>India's Most-loved<br> Payments App</B></h1>
+            <p>Recharge & pay bills, book flights & movie tickets,<br> open a savings account, invest in stocks & mutual <br>funds, and do a lot more.</p>
+            <div class="download-button">
+                <a href="https://play.google.com/store/apps/details?id=net.one97.paytm"  target="_blank" style="text-decoration: none; color: #fff;">
+                    <span style="font-family: 'Lato', sans-serif;
+                    font-family: 'Noto Sans JP', sans-serif;
+                    font-family: 'Noto Sans Tangsa', sans-serif;
+                    font-family: 'Poppins', sans-serif;
+                    font-family: 'Roboto', sans-serif;">Download Paytm App</span>
+                    <i class="fa-brands fa-apple"></i>
+                   <i class="fa-brands fa-google-play"></i>
+                </a>
+            </div>
+        </div>
+        <div id="box-3">
+            <img src="img-12.jpg.png">
+        </div>
+    </div>
+    <!--Recharge Bills Starts Here-->
+    <div id="content-2">
+        <h1 style="color: #fff; margin-left: 70px;font-family: 'Lato', sans-serif;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-family: 'Noto Sans Tangsa', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Roboto', sans-serif;"><b>Recharge & Pay Bills on Paytm.</b></h1>
+        <div id="content-2-item">
+        <div id="item-1">
+            <a href="https://paytm.com/recharge">
+            <img src="box-img-1.png" width="60px">
+            <span style="color: white; font-size: 18px; font-weight: 400px; margin-left: 10px;font-family: 'Lato', sans-serif;
+            font-family: 'Noto Sans JP', sans-serif;
+            font-family: 'Noto Sans Tangsa', sans-serif;
+            font-family: 'Poppins', sans-serif;
+            font-family: 'Roboto', sans-serif;">Recharge<br> Prepaid<br> Mobile></span>
+            </a>
+        </div>
+        <div id="item-2">
+<a href="https://paytm.com/electricity-bill-pa...">
+    <img src="box-img-2.png" width="60px"><br>
+    <span style="color: white; font-size: 18px; font-weight: 400px; margin-left: 10px;font-family: 'Lato', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Noto Sans Tangsa', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;">Pay<br> Elictricity<br> Bill></span>
+</a>
+        </div>
+        <div id="item-3">
+            <a href="https://paytm.com/dth-recharge">
+                <img src="box-img-3.png" width="60px"><br>
+                <span style="color: white; font-size: 18px; font-weight: 400px; margin-left: 10px;font-family: 'Lato', sans-serif;
+                font-family: 'Noto Sans JP', sans-serif;
+                font-family: 'Noto Sans Tangsa', sans-serif;
+                font-family: 'Poppins', sans-serif;
+                font-family: 'Roboto', sans-serif;">Recharge<br> DTH<br> Connection></span>
+            </a> 
+        </div>
+        <div id="item-4">
+            <a href="https://paytm.com/cylinder-gas-recharge">
+                <img src="box-img-4.png" width="60px"><br>
+                <span style="color: white; font-size: 18px; font-weight: 400px; margin-left: 10px;font-family: 'Lato', sans-serif;
+                font-family: 'Noto Sans JP', sans-serif;
+                font-family: 'Noto Sans Tangsa', sans-serif;
+                font-family: 'Poppins', sans-serif;
+                font-family: 'Roboto', sans-serif;">Book<br> Gas<br>Cylinder></span>
+            </a> 
+        </div>
+        <div id="item-5">
+            <a href="https://paytm.com/broadband-bill-payment">
+                <img src="box-img-5.png" width="60px"><br>
+                <span style="color: white; font-size: 18px; font-weight: 400px; margin-left: 10px;font-family: 'Lato', sans-serif;
+                font-family: 'Noto Sans JP', sans-serif;
+                font-family: 'Noto Sans Tangsa', sans-serif;
+                font-family: 'Poppins', sans-serif;
+                font-family: 'Roboto', sans-serif;">Pay<br> Broadband &<br>Landline Bill></span>
+            </a>  
+        </div>
+        <div id="item-6">
+            <a href="https://paytm.com/education">
+                <img src="box-img-6.png" width="60px"><br>
+                <span style="color: white; font-size: 18px; font-weight: 400px; margin-left: 10px;font-family: 'Lato', sans-serif;
+                font-family: 'Noto Sans JP', sans-serif;
+                font-family: 'Noto Sans Tangsa', sans-serif;
+                font-family: 'Poppins', sans-serif;
+                font-family: 'Roboto', sans-serif;">Pay<br>Education<br>Fee></span>
+            </a>  
+        </div>
+        <div id="item-7">
+            <a href="">
+                <img src="box-img-7.png" width="60px"><br>
+                <span style="color: white; font-size: 18px; font-weight: 400px; margin-left: 10px;font-family: 'Lato', sans-serif;
+                font-family: 'Noto Sans JP', sans-serif;
+                font-family: 'Noto Sans Tangsa', sans-serif;
+                font-family: 'Poppins', sans-serif;
+                font-family: 'Roboto', sans-serif;">All<br>Payment<br>Services></span>
+            </a>  
+        </div>
+        </div>
+    </div>
+    <!--Booking Starts Here-->
+    <div id="content-3">
+        <h1 style="color: #ffffff; margin-left: 70px;font-family: 'Lato', sans-serif;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-family: 'Noto Sans Tangsa', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Roboto', sans-serif;"><b>Book & Buy on Paytm.</b></h1>
+<div id="content-3-box">
+<div id="book-1">
+    <a href="">
+        <img src="item1.png" width="90px"><br>
+        <span style="color: white; font-size: 18px; font-weight: 400px; margin-left: 10px;font-family: 'Lato', sans-serif;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-family: 'Noto Sans Tangsa', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Roboto', sans-serif;">Movie<br>Tickets></span>
+    </a>  
+</div>
+<div id="book-2">
+    <a href="">
+        <img src="item2.png" width="90px"><br>
+        <span style="color: white; font-size: 18px; font-weight: 400px; margin-left: 10px;font-family: 'Lato', sans-serif;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-family: 'Noto Sans Tangsa', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Roboto', sans-serif;">Fights<br>Tickets></span>
+    </a>  
+</div>
+<div id="book-3">
+    <a href="">
+        <img src="item3.png" width="90px"><br>
+        <span style="color: white; font-size: 18px; font-weight: 400px; margin-left: 10px;font-family: 'Lato', sans-serif;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-family: 'Noto Sans Tangsa', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Roboto', sans-serif;">Bus<br>Tickets></span>
+    </a>  
+</div>
+<div id="book-4">
+    <a href="">
+        <img src="item4.png" width="90px"><br>
+        <span style="color: white; font-size: 18px; font-weight: 400px; margin-left: 10px;font-family: 'Lato', sans-serif;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-family: 'Noto Sans Tangsa', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Roboto', sans-serif;">Train<br>Tickets></span>
+    </a>  
+</div>
+<div id="book-5">
+    <a href="">
+        <img src="item5.png" width="90px"><br>
+        <span style="color: white; font-size: 18px; font-weight: 400px; margin-left: 10px;font-family: 'Lato', sans-serif;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-family: 'Noto Sans Tangsa', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Roboto', sans-serif;">Buy<br>Insurance></span>
+    </a>  
+</div>
+<div id="book-6">
+    <a href="">
+        <img src="item6.png" width="110px"><br>
+        <span style="color: white; font-size: 18px; font-weight: 400px; margin-left: 10px;font-family: 'Lato', sans-serif;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-family: 'Noto Sans Tangsa', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Roboto', sans-serif;">Buy<br>Insurance></span>
+    </a>   
+</div>
+<div id="book-7">
+    <a href="">
+        <img src="item7.png" width="110px"><br>
+        <span style="color: white; font-size: 18px; font-weight: 400px; margin-left: 10px;font-family: 'Lato', sans-serif;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-family: 'Noto Sans Tangsa', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Roboto', sans-serif;">Invest<br>in Stock></span>
+    </a>   
+</div>
+</div>
+
+    </div>
+<!--Paytm Payment Section Starts Here-->
+<div id="big-container">
+    <h1 style="font-size: 45px;font-family: 'Lato', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Noto Sans Tangsa', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;">Paytm Payment Instruments</h1>
+</div>
+<div id="container-4">
+    <div id="container-4-left">
+        <div id="container-4-left-1">
+            <img src="paytm-wallet.png" alt="" width="60px">
+            <span style="font-family: 'Lato', sans-serif;
+            font-family: 'Noto Sans JP', sans-serif;
+            font-family: 'Noto Sans Tangsa', sans-serif;
+            font-family: 'Poppins', sans-serif;
+            font-family: 'Roboto', sans-serif; font-weight: 600;margin-left: 10px;">Paytm<br> Wallet</span>
+        </div><br><br>
+        <div id="container-4-left-2">
+            <span style="font-size: 45px;font-family: 'Lato', sans-serif;
+            font-family: 'Noto Sans JP', sans-serif;
+            font-family: 'Noto Sans Tangsa', sans-serif;
+            font-family: 'Poppins', sans-serif;
+            font-family: 'Roboto', sans-serif;"><b>The Fastest Way to<br> Pay In-store & Online.</b></span><br><br>
+            <span style="font-size: 21px;font-family: 'Lato', sans-serif;
+            font-family: 'Noto Sans JP', sans-serif;
+            font-family: 'Noto Sans Tangsa', sans-serif;
+            font-family: 'Poppins', sans-serif;
+            font-family: 'Roboto', sans-serif; font-weight: lighter rgba(0, 0, 0, 0.712);">Load up your Paytm Wallet for free and make payments<br> in a jiffy at over 21 million stores, websites and apps.</span>
+            
+        </div><br>
+        <div id="container-4-left-3">
+            <a href="https://play.google.com/store/apps/details?id=net.one97.paytm" style="text-decoration: none; color: white;" target="_blank">
+                <div id="box-12">
+                    <span style="color: white;font-family: 'Lato', sans-serif;
+                    font-family: 'Noto Sans JP', sans-serif;
+                    font-family: 'Noto Sans Tangsa', sans-serif;
+                    font-family: 'Poppins', sans-serif;
+                    font-family: 'Roboto', sans-serif;">Download Paytm App</span>
+                    <i class="fa-brands fa-apple"></i>
+                    <i class="fa-brands fa-google-play"></i>
+                </div>
+
+            </a>
+        </div>
+        <div id="container-4-left-4"></div>
+    </div>
+    <div id="container-4-right">
+        <img src="img-2.png"  alt="" width="500px" style="margin-left: 150px; margin-top: 10%;">
+    </div>
+</div>
+<!--Money Transfer Section  Starts Here-->
+<div id="container-5">
+    <div id="container-5-left">
+        <div id="container-4-left-1">
+            <img src="money transfer.png" alt="" width="60px">
+            <span style="font-family: 'Lato', sans-serif;
+            font-family: 'Noto Sans JP', sans-serif;
+            font-family: 'Noto Sans Tangsa', sans-serif;
+            font-family: 'Poppins', sans-serif;
+            font-family: 'Roboto', sans-serif; font-weight: 600;margin-left: 10px;">Upi Money<br> Transfer</span>
+        </div><br><br>
+        <div id="container-5-left-2">
+            <span style="font-size: 45px;font-family: 'Lato', sans-serif;
+            font-family: 'Noto Sans JP', sans-serif;
+            font-family: 'Noto Sans Tangsa', sans-serif;
+            font-family: 'Poppins', sans-serif;
+            font-family: 'Roboto', sans-serif;"><b>Pay anyone directly<br> from your bank<br> account.</b></span><br><br>
+            <span style="font-size: 19px;font-family: 'Lato', sans-serif;
+            font-family: 'Noto Sans JP', sans-serif;
+            font-family: 'Noto Sans Tangsa', sans-serif;
+            font-family: 'Poppins', sans-serif;
+            font-family: 'Roboto', sans-serif; font-weight: lighter rgba(0, 0, 0, 0.712);">Pay anyone, everywhere. Make contactless & secure<br> payments in-stores or online using Paytm Wallet or<br> Directly from your Bank Account. Plus, send & receive<br> money from anyone.</span>
+            
+        </div><br>
+        <div id="container-5-left-3">
+            <a href="https://play.google.com/store/apps/details?id=net.one97.paytm" style="text-decoration: none; color: white;" target="_blank">
+                <div id="box-13">
+                    <span style="color: white;font-family: 'Lato', sans-serif;
+                    font-family: 'Noto Sans JP', sans-serif;
+                    font-family: 'Noto Sans Tangsa', sans-serif;
+                    font-family: 'Poppins', sans-serif;
+                    font-family: 'Roboto', sans-serif;">Download Paytm App</span>
+                    <i class="fa-brands fa-apple"></i>
+                    <i class="fa-brands fa-google-play"></i>
+                </div>
+
+            </a>
+        </div>
+        <div id="container-5-left-4"></div>
+    </div>
+    <div id="container-5-right">
+        <img src="img-3.png"  alt="" width="500px" style="margin-left: 150px; margin-top: 10%;">
+    </div>
+</div>
+<!--Postpaid Section Starts Here-->
+<div id="container-6">
+    <div id="container-6-left">
+        <div id="container-6-left-1">
+            <img src="postpaid.webp" alt="" width="200px">
+            <span style="font-family: 'Lato', sans-serif;
+            font-family: 'Noto Sans JP', sans-serif;
+            font-family: 'Noto Sans Tangsa', sans-serif;
+            font-family: 'Poppins', sans-serif;
+            font-family: 'Roboto', sans-serif; font-weight: 600;margin-left: 10px;"><br></span>
+        </div><br><br>
+        <div id="container-6-left-2">
+            <span style="font-size: 45px;font-family: 'Lato', sans-serif;
+            font-family: 'Noto Sans JP', sans-serif;
+            font-family: 'Noto Sans Tangsa', sans-serif;
+            font-family: 'Poppins', sans-serif;
+            font-family: 'Roboto', sans-serif;"><b>Want it?<br>
+No more waiting for it.</b></span><br><br>
+            <span style="font-size: 19px;font-family: 'Lato', sans-serif;
+            font-family: 'Noto Sans JP', sans-serif;
+            font-family: 'Noto Sans Tangsa', sans-serif;
+            font-family: 'Poppins', sans-serif;
+            font-family: 'Roboto', sans-serif; font-weight: lighter rgba(0, 0, 0, 0.712);">Pay anyone, everywhere. Make contactless & secure<br> payments in-stores or online using Paytm Wallet or<br> Directly from your Bank Account. Plus, send & receive<br> money from anyone.</span>
+            
+        </div><br>
+        <div id="container-6-left-3">
+            <a href="https://paytm.com/loans-credit-cards/paytm-postpaid/" style="text-decoration: none; color: white;" target="_blank">
+               <div id="box-15">
+                <span style="color: white;font-family: 'Lato', sans-serif;
+                font-family: 'Noto Sans JP', sans-serif;
+                font-family: 'Noto Sans Tangsa', sans-serif;
+                font-family: 'Poppins', sans-serif;
+                font-family: 'Roboto', sans-serif;">Learn More </span>
+               <i class="fa-solid fa-chevron-right fa-fade" style="color: #ffffff;"></i> 
+               </div>
+
+            </a>
+        </div>
+        <div id="container-6-left-4"></div>
+    </div>
+    <div id="container-6-right">
+        <img src="img-4.png"  alt="" width="450px" style="margin-left: 150px; margin-top: 10%;">
+    </div>
+</div>
+<!--Financial Service Section Starts Here-->
+
+
+<div id="big-container">
+    <h1 style="font-size: 45px;font-family: 'Lato', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Noto Sans Tangsa', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;">Paytm Payment Instruments</h1>
+</div>
+<div id="container-6">
+    
+    <div id="container-6-left">
+        <div id="container-6-left-1">
+            <img src="payment.bank.png" alt="" width="200px">
+            <span style="font-family: 'Lato', sans-serif;
+            font-family: 'Noto Sans JP', sans-serif;
+            font-family: 'Noto Sans Tangsa', sans-serif;
+            font-family: 'Poppins', sans-serif;
+            font-family: 'Roboto', sans-serif; font-weight: 600;margin-left: 10px;"><br></span>
+        </div><br><br>
+        <div id="container-6-left-2">
+            <span style="font-size: 45px;font-family: 'Lato', sans-serif;
+            font-family: 'Noto Sans JP', sans-serif;
+            font-family: 'Noto Sans Tangsa', sans-serif;
+            font-family: 'Poppins', sans-serif;
+            font-family: 'Roboto', sans-serif;"><b>India's most sincere<br>bank.
+</b></span><br><br>
+            <span style="font-size: 22px;font-family: 'Lato', sans-serif;
+            font-family: 'Noto Sans JP', sans-serif;
+            font-family: 'Noto Sans Tangsa', sans-serif;
+            font-family: 'Poppins', sans-serif;
+            font-family: 'Roboto', sans-serif; font-weight: lighter rgba(0, 0, 0, 0.712);">Paytm Payments Bank offers secure, transparent and<br> risk-free banking at your fingertips. With instant<br> account opening, virtual debit card and zero balance<br> requirements, experience the future of banking today.</span>
+            
+        </div><br>
+        <div id="container-6-left-3">
+            <a href="https://www.paytmbank.com/AccountOpening" style="text-decoration: none; color: white;" target="_blank">
+               <div id="box-15">
+                <span style="color: white;font-family: 'Lato', sans-serif;
+                font-family: 'Noto Sans JP', sans-serif;
+                font-family: 'Noto Sans Tangsa', sans-serif;
+                font-family: 'Poppins', sans-serif;
+                font-family: 'Roboto', sans-serif;">Learn More </span>
+               <i class="fa-solid fa-chevron-right fa-fade" style="color: #ffffff;"></i> 
+               </div>
+
+            </a>
+        </div>
+        <div id="container-6-left-4"></div>
+    </div>
+    <div id="container-6-right">
+        <img src="img-5.png"  alt="" width="450px" style="margin-left: 150px; margin-top: 10%;">
+    </div>
+</div>
+<!--Financial Service Section End Here-->
+<br>
+<br><br>
+<!--Paytm Money section Starts Here-->
+<div class="container-box">
+    <div class="left-side">
+      <img src="img-6.png" alt="Left Image">
+    </div>
+    <div class="right-side">
+        <img src="paytm-money.png" alt="" height="79px">
+      <h2 style="font-size: 40px;font-family: 'Lato', sans-serif;
+      font-family: 'Noto Sans JP', sans-serif;
+      font-family: 'Noto Sans Tangsa', sans-serif;
+      font-family: 'Poppins', sans-serif;
+      font-family: 'Roboto', sans-serif;color: black;">Build Long-term<br> Wealth & Achieve <br>your Goals.</h2>
+      <p style="font-size: 19px;font-family: 'Lato', sans-serif;
+      font-family: 'Noto Sans JP', sans-serif;
+      font-family: 'Noto Sans Tangsa', sans-serif;
+      font-family: 'Poppins', sans-serif;
+      font-family: 'Roboto', sans-serif; font-weight: lighter; color: black;">Investing on Paytm Money is transparent, low-cost and<br> commission-free. Buy stocks & mutual funds that can<br> help you create wealth & realise your dreams.</p>
+      <div id="container-6-left-3">
+        <a href="https://www.paytmmoney.com/" style="text-decoration: none; color: white;" target="_blank">
+           <div id="box-15">
+            <span style="color: white;font-family: 'Lato', sans-serif;
+            font-family: 'Noto Sans JP', sans-serif;
+            font-family: 'Noto Sans Tangsa', sans-serif;
+            font-family: 'Poppins', sans-serif;
+            font-family: 'Roboto', sans-serif;">Learn More </span>
+           <i class="fa-solid fa-chevron-right fa-fade" style="color: #ffffff;"></i> 
+           </div>
+
+        </a>
+    </div>
+    </div>
+  </div>
+
+<!--Paytm Money Section End Here-->
+<br><br><br><br><br><br><br><br>
+<!--Paytm Insurance Section Starts Here-->
+<div id="insurance-container">
+    <div id="insurance-box-1"></div>
+    <div id="insurance-box-2">
+        <img src="paytm.insurance.webp" alt="" height="55px" style="margin-left: 4%;">
+        <h1 style="font-size: 40px;font-family: 'Lato', sans-serif;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-family: 'Noto Sans Tangsa', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Roboto', sans-serif;color: black; margin-left: 4%;">Insurance made easy.</h1>
+        <p style="margin-left: 4%;font-size: 22px;font-family: 'Lato', sans-serif;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-family: 'Noto Sans Tangsa', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Roboto', sans-serif; font-weight: lighter; color: black;">Buying insurance does not have to be tedious, time-<br style="margin-left: 4%;">consuming & confusing. Paytm Insurance removes the<br> worry of getting insured by making it simple,<br> convenient & easy-to-understand.</p>
+        <div id="container-7">
+            <a href="https://paytminsurance.co.in/" style="text-decoration: none; color: white;" target="_blank">
+               <div id="box-15">
+                <span style="color: white;font-family: 'Lato', sans-serif;
+                font-family: 'Noto Sans JP', sans-serif;
+                font-family: 'Noto Sans Tangsa', sans-serif;
+                font-family: 'Poppins', sans-serif;
+                font-family: 'Roboto', sans-serif;">Learn More </span>
+               <i class="fa-solid fa-chevron-right fa-fade" style="color: #ffffff;"></i> 
+               </div>
+    
+            </a>
+        </div>
+    </div>
+    <div id="insurance-box-3">
+        <img src="img-7.png" alt="" height="400px" width="">
+    </div>
+    <div id="insurance-box-4"></div>
+</div>
+<!--Paytm Insurance Section Ends Here-->
+<!--Paytm Personal loan Section Starts Here-->
+<div id="loan-box">
+    <div id="loan-box-1"></div>
+    <div id="loan-box-2">
+    <img src="img-8.png" alt="" height="420px" width="420">
+    </div>
+    <div id="loan-box-3">
+        <img src="personal loan.png" alt="" height="55px" style="margin-top: 5rem; margin-left: 4%;">
+<h1 style="font-size: 40px;font-family: 'Lato', sans-serif;
+font-family: 'Noto Sans JP', sans-serif;
+font-family: 'Noto Sans Tangsa', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;color: black; margin-left: 4%; margin-top: 5%;">Get a Personal Loan in<br> 2 Minutes.</h1>
+<p style="margin-left: 4%;font-size: 19px;font-family: 'Lato', sans-serif;
+font-family: 'Noto Sans JP', sans-serif;
+font-family: 'Noto Sans Tangsa', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif; font-weight: lighter; color: black;font-weight: 400;" > Paytm offers India's quickest multi-purpose, hassle-free loan. It<br> is 100% digital, transparent and paperless.
+</p>
+<div id="container-8">
+    <a href="https://paytm.com/loans-credit-cards/personal-loan/" style="text-decoration: none; color: white;" target="_blank">
+       <div id="box-15">
+        <span style="color: white;font-family: 'Lato', sans-serif;
+            font-family: 'Noto Sans JP', sans-serif;
+            font-family: 'Noto Sans Tangsa', sans-serif;
+            font-family: 'Poppins', sans-serif;
+            font-family: 'Roboto', sans-serif;">Learn More </span>
+       <i class="fa-solid fa-chevron-right fa-fade" style="color: #ffffff;"></i> 
+       </div>
+
+    </a>
+</div>
+    </div>
+    <div id="loan-box-4"></div>
+</div>
+<!--Paytm Personal loan Section Ends Here-->
+<br><br><br><br><br><br><br><br><br><br><br>
+<!--Business Services Section Starts Here-->
+<div id="service-box">
+    <Span style="font-size: 45px;font-family: 'Lato', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Noto Sans Tangsa', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;color: black; margin-left: 9%;font-weight: 700;">Business Services by Paytm</Span><br><br><br>
+    <div class="box-service">
+    <div id="service-box-1"></div>
+    <div id="service-box-2">
+        <h1 style="font-family: 'Lato', sans-serif;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-family: 'Noto Sans Tangsa', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Roboto', sans-serif; margin-top: 10rem;margin-left: 9%;">Accept payments<br> online with ease</h1>
+        <p style="margin-left: 9%;font-size: 20px;font-family: 'Lato', sans-serif;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-family: 'Noto Sans Tangsa', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Roboto', sans-serif; font-weight: lighter; color: black;font-weight: 300">Grow your business with the payment gateway that<br> powers India’s largest brands and even the Paytm App</p>
+        <div id="container-9">
+            <a href="https://business.paytm.com/payment-gateway" style="text-decoration: none; color: white;" target="_blank">
+               <div id="box-15">
+                <span style="color: white;font-family: 'Lato', sans-serif;
+                    font-family: 'Noto Sans JP', sans-serif;
+                    font-family: 'Noto Sans Tangsa', sans-serif;
+                    font-family: 'Poppins', sans-serif;
+                    font-family: 'Roboto', sans-serif;">Learn More </span>
+               <i class="fa-solid fa-chevron-right fa-fade" style="color: #ffffff;"></i> 
+               </div>
+        
+            </a>
+        </div>
+    </div>
+    <div id="service-box-3">
+        <img src="2items-.png" alt="" height="500">
+    </div>
+    <div id="service-box-4"></div>
+    </div>
+</div>
+<!--Business Services Section Ends Here-->
+<br>
+<br>
+<br>
+<br>
+<!--In Shop Payments section Starts Here-->
+<div id="box-payment">
+    <div id="payment-tools-1"></div>
+    <div id="payment-tools-2">
+        <h1 style="font-family: 'Lato', sans-serif;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-family: 'Noto Sans Tangsa', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Roboto', sans-serif; margin-top: 10rem;margin-left: 9%;">In-shop payments<br>powered by Paytm. </h1>
+        <p style="margin-left: 9%;font-size: 18px;font-family: 'Lato', sans-serif;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-family: 'Noto Sans Tangsa', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Roboto', sans-serif; font-weight: lighter; color: black;font-weight: 300">Millions of small & big businesses use Paytm to accept<br> payments anywhere any time with a wide range of<br> solutions for all kind of merchants</p>
+        <div id="container-9">
+            <a href="https://business.paytm.com/" style="text-decoration: none; color: white;" target="_blank">
+               <div id="box-15">
+                <span style="color: white;font-family: 'Lato', sans-serif;
+                    font-family: 'Noto Sans JP', sans-serif;
+                    font-family: 'Noto Sans Tangsa', sans-serif;
+                    font-family: 'Poppins', sans-serif;
+                    font-family: 'Roboto', sans-serif;">Learn More </span>
+               <i class="fa-solid fa-chevron-right fa-fade" style="color: #ffffff;"></i> 
+               </div>
+        
+            </a>
+        </div>
+    </div>
+    <div id="payment-tools-3">
+        <img src="img-10.png" alt="" height="350">
+    </div>
+    <div id="payment-tools-4"></div>
+    
+</div>
+<!--In Shop Payments section Ends Here-->
+
+<br>
+<br>
+<br>
+<br>
+<!--Business Tools Section Start Here-->
+<div id="business-tools">
+    <h1 style="font-size: 35px;font-family: 'Lato', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Noto Sans Tangsa', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;color: black; margin-left: 9%;font-weight: 700;">Business Tools to help <br>your business grow</h1>
+    <div id="tool-box">
+        <div id="tool-box-1"></div>
+        <div id="tool-box-2">
+            <img src="pic-4-.png">
+            <p style="font-family: 'Lato', sans-serif;
+            font-family: 'Noto Sans JP', sans-serif;
+            font-family: 'Noto Sans Tangsa', sans-serif;
+            font-family: 'Poppins', sans-serif;
+            font-family: 'Roboto', sans-serif;font-size: 25px; margin-left: 5%; font-weight: 600;">POS Billing
+                Software</p>
+                <h1 style="font-family: 'Lato', sans-serif;
+                font-family: 'Noto Sans JP', sans-serif;
+                font-family: 'Noto Sans Tangsa', sans-serif;
+                font-family: 'Poppins', sans-serif;
+                font-family: 'Roboto', sans-serif; font-size:17px;font-weight:  200;"">Say Hello to Smart Retail Business Management</h1>
+                <h2 style="font-family: 'Lato', sans-serif;
+                font-family: 'Noto Sans JP', sans-serif;
+                font-family: 'Noto Sans Tangsa', sans-serif;
+                font-family: 'Poppins', sans-serif;
+                font-family: 'Roboto', sans-serif; font-size:14px;font-weight:  600;" >Learn More</h2>
+        </div>
+        <div id="tool-box-3">
+            <img src="pic-1-.png">
+            <p style="font-family: 'Lato', sans-serif;
+            font-family: 'Noto Sans JP', sans-serif;
+            font-family: 'Noto Sans Tangsa', sans-serif;
+            font-family: 'Poppins', sans-serif;
+            font-family: 'Roboto', sans-serif;font-size: 25px; margin-left: 5%; font-weight: 600;"> Paytm for
+                Business App</p>
+                <h1 style="font-family: 'Lato', sans-serif;
+                font-family: 'Noto Sans JP', sans-serif;
+                font-family: 'Noto Sans Tangsa', sans-serif;
+                font-family: 'Poppins', sans-serif;
+                font-family: 'Roboto', sans-serif; font-size:17px;font-weight:  200; margin-left: 4%;">Everything you need to manage your business on your phone</h1>
+                <h2 style="font-family: 'Lato', sans-serif;
+                font-family: 'Noto Sans JP', sans-serif;
+                font-family: 'Noto Sans Tangsa', sans-serif;
+                font-family: 'Poppins', sans-serif;
+                font-family: 'Roboto', sans-serif; font-size:14px;font-weight:  600; margin-left: 4%;">Learn More</h2>
+        </div>
+        <div id="tool-box-4">
+            <img src="pic-2.png">
+            <p style="font-family: 'Lato', sans-serif;
+            font-family: 'Noto Sans JP', sans-serif;
+            font-family: 'Noto Sans Tangsa', sans-serif;
+            font-family: 'Poppins', sans-serif;
+            font-family: 'Roboto', sans-serif;font-size: 25px; margin-left: 5%; font-weight: 600;">Advertise on
+                Paytm</p>
+                <h1 style="font-family: 'Lato', sans-serif;
+                font-family: 'Noto Sans JP', sans-serif;
+                font-family: 'Noto Sans Tangsa', sans-serif;
+                font-family: 'Poppins', sans-serif;
+                font-family: 'Roboto', sans-serif; font-size: 18px; font-weight: 300;"">Grow your business by advertising on India’s largest mobile business</h1>
+                <h2 style="font-family: 'Lato', sans-serif;
+                font-family: 'Noto Sans JP', sans-serif;
+                font-family: 'Noto Sans Tangsa', sans-serif;
+                font-family: 'Poppins', sans-serif;
+                font-family: 'Roboto', sans-serif; font-size:14px;font-weight:  600;"">Learn More</h2>
+        </div>
+        <div id="tool-box-5">
+            <img src="pic-3.png">
+            <p style="font-family: 'Lato', sans-serif;
+            font-family: 'Noto Sans JP', sans-serif;
+            font-family: 'Noto Sans Tangsa', sans-serif;
+            font-family: 'Poppins', sans-serif;
+            font-family: 'Roboto', sans-serif;font-size: 25px; margin-left: 5%; font-weight: 600;">Business
+                Khata</p>
+                <h1 style="font-family: 'Lato', sans-serif;
+                font-family: 'Noto Sans JP', sans-serif;
+                font-family: 'Noto Sans Tangsa', sans-serif;
+                font-family: 'Poppins', sans-serif;
+                font-family: 'Roboto', sans-serif; font-size: 18px; font-weight: 300; margin-top: 3rem;">Managing Khata made easy</h1>
+                <h2 style="font-family: 'Lato', sans-serif;
+                font-family: 'Noto Sans JP', sans-serif;
+                font-family: 'Noto Sans Tangsa', sans-serif;
+                font-family: 'Poppins', sans-serif;
+                font-family: 'Roboto', sans-serif; font-size:14px;font-weight:  600; margin-top: 4rem;"">Learn More</h2> 
+        </div>
+        <div id="tool-box-6"></div>
+    </div>
+</div>
+<!--Business Tools Section End Here-->
+<!--Footer Section Starts Here-->
+<div class="footer">
+    <h1 style="font-family: 'Lato', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Noto Sans Tangsa', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif; font-size: 18px; font-weight: 600; margin-top: 3rem; font-size: 35px;"" >Download Paytm App to Pay from anywhere
+    </h1>
+    <img src="apple-app-store-and-google-play-logos-app.png" alt="" height="150px">
+    <h2 style="font-family: 'Lato', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Noto Sans Tangsa', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif; font-size: 18px; font-weight: 600; "">Follow Us On
+   <br> <i class="fa-brands fa-instagram"></i>
+   <i class="fa-brands fa-x-twitter"></i>
+   <i class="fa-brands fa-facebook"></i>
+   <i class="fa-brands fa-linkedin"></i>
+
+</h2>
+    <p style="font-family: 'Lato', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Noto Sans Tangsa', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;"">&copy; 2023 Paytm. All rights reserved.</p>
+    <nav>
+      <a href="#">Terms of Use</a>
+      <a href="#">Privacy Policy</a>
+      <a href="#">Security</a>
+      <a href="#">Contact Us</a>
+    </nav>
+  </div>
+<!--Footer Section End Here-->
+</body>
+</html>
